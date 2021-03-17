@@ -1,15 +1,17 @@
 main {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 10fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .welcome {
-    background-color:khaki;
+    background-image: url('jeuno.png');
     display: grid;
+    color: white;
 }
 
 .features {
-    background-color: lawngreen;
+    background-color: white;
+    text-align: center;
 }
 
 .pics {
@@ -34,10 +36,16 @@ main {
 }
 
 .title {
-    position:relative;
-    top: 100px;
+    position: absolute;
+    top: 275px;
     left: 100px;
+    font-size: 2rem;
+}
 
+.buttons {
+    position: absolute;
+    top: 450px;
+    left: 100px;
 }
 
 ul {
