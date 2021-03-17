@@ -1,0 +1,51 @@
+main {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.welcome {
+    background-color:khaki;
+    display: grid;
+}
+
+.features {
+    background-color: lawngreen;
+}
+
+.pics {
+    background-color: lightblue;
+}
+
+.customizations {
+    background-color: navy;
+}
+
+.get-started {
+    background-color: lightgreen;
+}
+
+.discord {
+    background-color: mediumspringgreen;
+}
+
+.navig {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.title {
+    position:relative;
+    top: 100px;
+    left: 100px;
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    margin: 10px;
+}
