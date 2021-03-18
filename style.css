@@ -1,3 +1,7 @@
+body {
+    margin: 0px;
+}
+
 main {
     display: grid;
     grid-template-rows: 10fr 1fr 1fr 1fr 1fr 1fr;
@@ -25,8 +29,14 @@ main {
     grid-template: 100px 100px / 1fr 1fr 1fr 1fr;
 }
 
+.a:hover, .b:hover, .c:hover, .d:hover, .e:hover, .f:hover, .g:hover, .h:hover {
+    transform: scale(1.03);
+}
+
 .customizations {
-    background-color: navy;
+    height: 200px;
+    display: flex;
+    
 }
 
 .get-started {
@@ -66,7 +76,16 @@ li {
     margin: 10px;
 }
 
+.goals {
+    color: #e67e22;
+    border: 2px solid #e67e22;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+}
+
 .a {
+
 }
 .b {
 }
